@@ -197,8 +197,8 @@ function updateResistorImage() {
 
   // 设置图片源
   imgElement.src = bandCount === 4
-    ? './图片素材/四色环电阻.png' // <-- 四色环电阻图片链接
-    : './图片素材/五色环电阻.png'; // <-- 五色环电阻图片链接
+    ? '图片素材/四色环电阻.png' // <-- 四色环电阻图片链接
+    : '图片素材/五色环电阻.png'; // <-- 五色环电阻图片链接
 
   resistorImageContainer.appendChild(imgElement);
 }
